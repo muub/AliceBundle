@@ -34,7 +34,9 @@
         "symfony/yaml": "~2.3|~3.0",
         "symfony/validator": "~2.3|~3.0",
         "sllh/php-cs-fixer-styleci-bridge": "~1.0",
-        "symfony/phpunit-bridge": "^2.7.4|~3.0"
+        "symfony/phpunit-bridge": "^2.7.4|~3.0",
+        "solarium/solarium": "~3.1",
+        "hautelook/solarium-fixtures": "~1.0"
     },
     "suggest": {
         "theofidry/alice-bundle-extension": "Behat extension for HautelookAliceBundle",

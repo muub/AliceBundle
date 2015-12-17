@@ -42,6 +42,13 @@
             <argument>%hautelook_alice.loading_limit%</argument>
         </service>
 
+        <service id="hautelook_alice.solarium.loader" class="Hautelook\AliceBundle\Solarium\Loader">
+            <argument type="collection">
+                <argument key="yaml" type="service" id="hautelook_alice.loader.yaml" />
+                </argument>
+            <argument type="service" id="logger" on-invalid="null"/>
+        </service>
+
         <service id="hautelook_alice.bundle_resolver" class="Hautelook\AliceBundle\Resolver\BundlesResolver" />
 
         <service id="hautelook_alice.doctrine.command_factory"
